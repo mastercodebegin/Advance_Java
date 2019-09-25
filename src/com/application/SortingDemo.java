@@ -2,13 +2,14 @@ package com.application;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.Set;
 import java.util.TreeSet;
 
 public class SortingDemo {
 
 	public static void main(String[] args) {
 		
-		TreeSet<Student> sset = new TreeSet<>();
+		Set<Student> sset = new TreeSet<>();
 		
 		Student s1 = new Student(13, "ABC");
 		Student s2 = new Student(12, "PQR");
